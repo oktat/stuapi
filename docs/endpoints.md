@@ -2,13 +2,13 @@
 
 Endpoint: students
 
-|  Endpoint         |  Method  |  Auth  |  CRUD  |  Description       |
-|-                  |-         |-       |-       |-                   |
-| /api/students     | GET      | no     | Read   | Get students.      |
-| /api/students/:id | GET      | no     | Read   | Get a student.     |
-| /api/students     | POST     | no     | Create | Create a student.  |
-| /api/students/:id | UPDATE   | no     | Update | Update a student.  |
-| /api/students/:id | DELETE   | no     | Delete | Delete a students. |
+| Endpoint          | Method | Auth | CRUD   | Description        |
+| ----------------- | ------ | ---- | ------ | ------------------ |
+| /api/students     | GET    | no   | Read   | Get students.      |
+| /api/students/:id | GET    | no   | Read   | Get a student.     |
+| /api/students     | POST   | no   | Create | Create a student.  |
+| /api/students/:id | UPDATE | no   | Update | Update a student.  |
+| /api/students/:id | DELETE | no   | Delete | Delete a students. |
 
 ## Get student/students
 
